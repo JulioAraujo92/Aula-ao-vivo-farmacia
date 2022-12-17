@@ -1,0 +1,116 @@
+body{
+    background: #e8c7eb;
+    margin: 0px;
+}
+
+nav{
+    background: #76BEBE;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content:center;
+}
+
+
+header img{
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+
+.titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #CF509C;
+    margin-bottom: 00px;
+}
+
+.subTitulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 35px;
+
+}
+
+section label{
+    margin-top: 20px;
+}
+
+section input{
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+}
+
+section button{
+    width: 230px;
+    height: 42px;
+    left: 174px;
+    top: 701px;
+    margin-top: 25px;
+    background: #76BEBE;
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #FFFFFF;
+    align-items: center;
+
+}
+
+.form{
+    display: grid;
+    grid-auto-flow: row;
+    padding-right: 20px;
+
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+th{
+    background: #3E3D3D;
+    border: 1px solid #b8aeae;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
